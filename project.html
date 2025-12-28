@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Canvix</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Roboto+Serif:opsz,wght@8..144,400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="img/favicon.png" sizes="16x16">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <meta name="description" content="Сайт агенції цифрового дизайну">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+<button class="scroll-top-btn" aria-label="Scroll to top">
+    <i class="fa-solid fa-arrow-up"></i>
+</button>
+<div class="contact-modal-overlay" id="contactModal">
+    <div class="contact-modal">
+        <button class="contact-modal-close" aria-label="Close">×</button>
+        <h3>Зв’яжіться з нами</h3>
+        <p>Залиште заявку — ми зв’яжемося з вами найближчим часом</p>
+        <form class="contact-form">
+            <input type="text" placeholder="Ваше ім’я" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Ваше повідомлення" rows="4"></textarea>
+            <button type="submit">Надіслати</button>
+        </form>
+    </div>
+</div>
+<header class="header-black">
+    <a href="index.html"><img src="img/logo2.png" alt="Canvix" class="logo"></a>
+    <nav>
+        <a href="index.html">Головна</a>
+        <a href="aboutus.html">Про нас</a>
+        <a href="project.html">Проекти</a>
+    </nav>
+    <a class="btn" href="#">Зв'яжіться з нами</a>
+</header>
+<section class="showcase portfolio-section">
+    <div class="portfolio">
+        <h2>Наше портфоліо</h2>
+    </div>
+    <div class="showcase-grid">
+        <div class="showcase-grid-item">
+            <article class="showcase-card">
+                <img src="img/case.png" alt="Web UI design">
+                <h3>Дизайн веб-інтерфейсу</h3>
+                <p>Креативний дизайн інтерфейсу користувача</p>
+            </article>
+            <article class="showcase-card">
+                <img src="img/case3.png" alt="UI Design">
+                <h3>Графічний дизайн</h3>
+                <p>Графічний дизайн</p>
+            </article>
+            <article class="showcase-card">
+                <img src="img/case5.png" alt="UI Design">
+                <h3>Графічний дизайн</h3>
+                <p>Графічний дизайн</p>
+            </article>
+        </div>
+        <div class="showcase-grid-item">
+            <article class="showcase-card large">
+                <img src="img/case2.png" alt="Digital Strategy">
+                <h3>Розробити цифрову стратегію</h3>
+                <p>Маркетинг у соціальних мережах</p>
+            </article>
+            <article class="showcase-card">
+                <img src="img/case4.png" alt="UI Design">
+                <h3>Дизайн інтерфейсу користувача</h3>
+                <p>Креативний ребрендинг логотипу</p>
+            </article>
+            <article class="showcase-card">
+                <img src="img/case6.png" alt="UI Design">
+                <h3>Дизайн інтерфейсу користувача</h3>
+                <p>Креативний ребрендинг логотипу</p>
+            </article>
+        </div>
+    </div>
+</section>
+<section class="team-section">
+    <div class="team-cta">
+        <h3>Досить слів — час діяти</h3>
+        <button>Зв’язатися з нами</button>
+    </div>
+</section>
+<footer class="footer">
+    <div class="footer-top">
+        <div class="footer-col brand">
+            <img src="img/logo.png" alt="img">
+            <p>
+                Ми — команда стратегічних творців та цифрових новаторів,
+                об'єднаних прагненням до майстерності та радості.
+            </p>
+        </div>
+        <div class="footer-col">
+            <h4>Сторінки</h4>
+            <ul>
+                <li><a href="#">Головна</a></li>
+                <li><a href="#">Про нас</a></li>
+                <li><a href="#">Проєкти</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h4>Корисні ресурси</h4>
+            <ul>
+                <li><a href="#">Посібник зі стилю</a></li>
+                <li><a href="#">Інструкція</a></li>
+                <li><a href="#">Ліцензія</a></li>
+                <li><a href="#">Список змін</a></li>
+                <li><a href="#">Error 404</a></li>
+            </ul>
+        </div>
+        <div class="footer-col subscribe">
+            <h4>Subscribe</h4>
+            <form class="subscribe-form">
+                <input type="email" placeholder="Введіть електронну адресу" required>
+                <button type="submit">Підписатися</button>
+            </form>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <span>Авторське право належить <br>Розроблено iconstica.com</span>
+        <span>Зв'яжіться з нами<br>+0 12 457 4578</span>
+        <span>Адреса<br>119 Тенглвуд Лейн, Галфпорт, Міссісіпі 39503</span>
+        <div class="socials">
+            <a href="https://www.facebook.com/?locale=uk_UA"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/feed/"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+    </div>
+</footer>
+<script src="script/script.js"></script>
+</body>
+</html>
